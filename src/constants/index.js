@@ -55,7 +55,7 @@ const services = [
   {
     title: "React Developer",
     icon: reactjs,
-  }
+  },
 ];
 
 const technologies = [
@@ -102,7 +102,7 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  }
+  },
 ];
 
 const experiences = [
