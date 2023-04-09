@@ -1,6 +1,7 @@
 import {
   backend,
   web,
+  fullstack,
   javascript,
   typescript,
   html,
@@ -49,7 +50,7 @@ const services = [
   },
   {
     title: "Full Stack Developer",
-    icon: backend,
+    icon: fullstack,
   },
   {
     title: "React Developer",
@@ -69,10 +70,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -105,11 +102,7 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  }
 ];
 
 const experiences = [
