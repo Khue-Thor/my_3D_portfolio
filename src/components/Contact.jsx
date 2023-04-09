@@ -27,18 +27,32 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs.send(
-      "service_yipvu6l",
-      "template_irmi4af",
-      {
-        from_name: form.name,
-        to_name: "Khuephamy",
-        from_email: form.email,
-        to_email: "khuephumy19@gmail.com",
-        message: form.message,
-      },
-      "dol962hwFZn99IHWV"
-    );
+    emailjs
+      .send(
+        "service_yipvu6l",
+        "template_irmi4af",
+        {
+          from_name: form.name,
+          to_name: "Khuephamy",
+          from_email: form.email,
+          to_email: "khuephumy19@gmail.com",
+          message: form.message,
+        },
+        "dol962hwFZn99IHWV"
+      )
+      .then(() => {
+        setLoading(false);
+        alert("Thank you, I will get back to you as soon as possible.");
+
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        }, (err) => {
+          console.log(err);
+          alert('Something went wrong.')
+        })
+      });
   };
 
   return (
