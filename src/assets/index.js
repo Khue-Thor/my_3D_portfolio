@@ -28,7 +28,8 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import wtwr from './wtwr.png';
+import techshop from './techshop.png';
 export {
   logo,
   backend,
@@ -57,4 +58,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  wtwr,
+  techshop
 };
