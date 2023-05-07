@@ -23,7 +23,8 @@ import {
   tripguide,
   threejs,
   wtwr,
-  techshop
+  techshop,
+  sumzai,
 } from "../assets";
 
 export const navLinks = [
@@ -166,7 +167,7 @@ const projects = [
   {
     name: "Tech-shop",
     description:
-      "E-commerce app that enables users or customer to view, add/delete and buy products.",
+      "E-commerce app, where users can explore a vast array of products, seamlessly manage their shopping experience, and make purchases with ease.",
     tags: [
       {
         name: "react",
@@ -205,27 +206,27 @@ const projects = [
     image: wtwr,
     source_code_link: "https://github.com/Khue-Thor/se_project_react",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Sumz-AI",
+    description:
+      "GPT AI Website, a revolutionary platform designed to simplify your reading experience. With our cutting-edge technology powered by OpenAI's GPT-3 model, we offer a seamless solution for summarizing articles from URLs.",
+    tags: [
+      {
+        name: "Vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux/toolkit",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sumzai,
+    source_code_link: "https://github.com/Khue-Thor/sum-ai",
+  },
 ];
 
 export { services, technologies, experiences, projects };
